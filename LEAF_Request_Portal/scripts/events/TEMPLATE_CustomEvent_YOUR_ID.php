@@ -10,7 +10,7 @@
 
 namespace Portal;
 
-class CustomEvent_[YOUR EVENT ID]
+class CustomEvent
 {
     private $db;        // Object, Database connection
     private $login;     // Object, Login information for the current user
