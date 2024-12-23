@@ -42,6 +42,6 @@ jobs:
       - name: Detect coding standard violations
         run: ./vendor/bin/phpcs --standard=phpcs.xml ./
       - name: Static Analysis via PHPStan
-        run: ./vendor/bin/phpstan analyse LEAF_Nexus LEAF_Request_Portal libs --level=4 --memory-limit=2048M --error-format=md --no-progress >> 'Static Analysis.md'  
+        run: ./vendor/bin/phpstan analyse LEAF_Nexus LEAF_Request_Portal libs --level=4 --memory-limit=2048M --error-format=json --no-progress >> 'Static Analysis.json'  
       - name: Detect awkward, overcomplicated or unused code with PhpMessDetector
         run: ./vendor/bin/phpmd ./LEAF_Nexus ./LEAF_Request_Portal ./libs xml phpmd.xml                
