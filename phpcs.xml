@@ -15,6 +15,7 @@
 
     <!-- Directories to exclude from the check -->
     <exclude-pattern>/app/</exclude-pattern>
+    <exclude-pattern>/libs/</exclude-pattern>
     <exclude-pattern>/scripts/</exclude-pattern>
     <exclude-pattern>/src/</exclude-pattern>
     <exclude-pattern>/vendor/</exclude-pattern>
