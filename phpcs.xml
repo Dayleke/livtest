@@ -17,4 +17,7 @@
     <exclude-pattern>/scripts/</exclude-pattern>
     <exclude-pattern>/src/</exclude-pattern>
     <exclude-pattern>/vendor/</exclude-pattern>
+    <exclude-pattern>/LEAF_Nexus/</exclude-pattern>
+    <exclude-pattern>/LEAF_Request_Portal/</exclude-pattern>
+    <exclude-pattern>/LEAF_Request_Portal/</exclude-pattern>
 </ruleset>
