@@ -1,0 +1,19 @@
+{
+    "name": "blue/leaf",
+    "autoload": {
+        "psr-4": {
+            "Blue\\Leaf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ade",
+            "email": "daytonadayleke@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "^2.15"
+    }
+}
